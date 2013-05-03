@@ -13,7 +13,7 @@ A quicker way is to hit **\<localleader\> c** when editing a Latex or Markdown d
 Installation
 ------------
 
-This plugin is written in pure vimscript and does not depend on any external programs. The recommended installation method is via pathogen:
+This plugin is written in pure vimscript and does not depend on any external programs. The recommended installation method is via [pathogen](https://github.com/tpope/vim-pathogen):
 
     cd ~/.vim/bundle
     git clone git://github.com/sf1/quicktoc-vim.git
