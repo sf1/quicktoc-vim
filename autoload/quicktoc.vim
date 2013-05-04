@@ -1,3 +1,9 @@
+"
+" Author: Sebastian Fleissner
+" Copyright: (C) 2013 Sebastian Fleissner
+" License: Vim License - see ':help license'. 
+"
+
 function! s:nfig(n)
     let ntemp = a:n
     let nf = 1

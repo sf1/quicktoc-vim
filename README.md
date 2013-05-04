@@ -26,4 +26,4 @@ Screenshot
 License
 -------
 
-Copyright (c) Sebastian Fleissner. Distributed under the VIM license. See :h license.
+Copyright (C) Sebastian Fleissner. Distributed under the VIM license. See ':h license'.
