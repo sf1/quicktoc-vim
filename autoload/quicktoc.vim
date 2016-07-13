@@ -75,8 +75,10 @@ function! quicktoc#markdown()
         call cursor(getpos('.')[1]+1,1)
     endwhile
     call setpos('.', pos)
-    call setloclist(0, toc.entries)
-    lw
+    "call setloclist(0, toc.entries)
+    "lw
+    call setqflist(toc.entries)
+    cw
 endfunction
 
 function! quicktoc#latex()
@@ -135,7 +137,9 @@ function! quicktoc#latex()
         call s:addEntry(toc, prefix . ' ' . typeTitle[1], level, n)
     endwhile
     call setpos('.', pos)
-    call setloclist(0, toc.entries)
-    lw
+    "call setloclist(0, toc.entries)
+    "lw
+    call setqflist(toc.entries)
+    cw
 endfunction
 
