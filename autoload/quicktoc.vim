@@ -47,7 +47,7 @@ function! s:addEntry(toc, title, level, lineNo)
 endfunction
 
 function! quicktoc#markdown()
-    let pattern ='^.*\n[=-]\+\|^#\+'
+    let pattern ='^.*\n^[=-]\+$\|^#\+'
     let pos = getpos('.')
     let toc = s:createTOC()
     call cursor(1,1)
